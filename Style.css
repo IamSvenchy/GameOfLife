@@ -1,0 +1,57 @@
+.mainContainer{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-color:white;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+}
+
+.mainContainer > div {
+    position: relative;
+    border: 0.5px solid black;
+    
+}
+.title{
+    width: inherit;
+    height: inherit;
+    text-align: center;
+    line-height: 100px;
+}
+
+.upperContainer{
+    margin: auto;
+    width: 504px;
+    height: 100px;
+    border: 0px;
+    background-color: darkblue;
+}
+
+.lowerContainer{
+    margin: auto;
+    align-self: center;
+    width: 504px;
+    height: 100px;
+    background-color: darkblue;
+    align-content: center;
+    display: flex;
+}
+
+#run{
+    align-self: center;
+    margin: auto;
+    height: 50px;
+    width: 75px;
+    vertical-align: center;
+    
+}
+
+#Mycanvas{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    align-self: center;
+    vertical-align: center;
+}
